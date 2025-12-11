@@ -3,5 +3,5 @@
     justify-content: center; /* Adjust as needed: flex-start, center, flex-end, space-around, space-between */
     align-items: left; /* Aligns items vertically in the middle */
     width: 200px;
-    height: auto;
+    height: 200px;
 }
