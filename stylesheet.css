@@ -2,4 +2,6 @@
   display: flex;
     justify-content: center; /* Adjust as needed: flex-start, center, flex-end, space-around, space-between */
     align-items: center; /* Aligns items vertically in the middle */
+    width: 50%;
+    height: 50%;
 }
