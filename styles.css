@@ -1,0 +1,45 @@
+.imageContainer{
+  display: inline-flex;
+  overflow: hidden;
+  width: 100%;
+  height: 400px;
+}
+
+#profile{
+ flex: 1;
+
+}
+#cover{
+ flex:2;
+}
+
+.nameAndBio{
+  display: flex;
+}
+
+h1 {
+  text-align: left;
+  border: 5px solid green;
+}
+
+#bio{
+  margin-left: 20px;
+
+  text-align: justify;
+}
+
+em {
+  font-size: 30px;
+}
+
+#bioTitle{
+    text-align: center;
+}
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+}
+
+h3{
+  text-align: center;
+}
