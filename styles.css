@@ -6,6 +6,7 @@ html {
   position: sticky;
   top: 0;
   background-color: green;
+  color: white;
   z-index: 1000;
   display: flex;
   align-items: center;
