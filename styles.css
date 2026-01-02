@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 .imageContainer{
   display: inline-flex;
   overflow: hidden;
