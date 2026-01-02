@@ -2,6 +2,19 @@ html {
   scroll-behavior: smooth;
 }
 
+.navbar {
+  position: sticky;
+  top: 0;
+  background-color: green;
+  z-index: 1000;
+  padding: 10px 0;
+}
+
+.nav-links{
+  display: flex;
+  justify-content: space-between;
+}
+
 .imageContainer{
   display: inline-flex;
   overflow: hidden;
@@ -38,9 +51,10 @@ em {
 #bioTitle{
     text-align: center;
 }
-.nav-links{
-  display: flex;
-  justify-content: space-between;
+
+section {
+  scroll-margin-top: 80px; /* adjust if navbar height changes */
+  padding: 40px 20px;
 }
 
 h3{
