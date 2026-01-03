@@ -137,3 +137,7 @@ section {
 #workTitle {
   margin-bottom: 10px;
 }
+
+table {
+  border: 2px solid black;
+}
