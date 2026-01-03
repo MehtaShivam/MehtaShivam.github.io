@@ -80,9 +80,19 @@ section {
   text-align: left;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 #aboutMeTitle{
   display: 1;
-  text-align: center;
+
+}
+
+#aboutMeIntro{
+  display: 2;
+
+}
+
+#quote{
+  display: 3;
 }
