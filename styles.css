@@ -101,4 +101,9 @@ section {
     padding: 15px;         /* Adds space between the text and the border */
     width: 300px;          /* Sets a specific width for the box */
     height: 300px;
+
+    display: flex;
+  align-items: center;      /* vertical centering */
+  justify-content: center;  /* horizontal centering */
+  text-align: left;         /* keeps text left-justified */
 }
