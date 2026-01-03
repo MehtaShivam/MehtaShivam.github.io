@@ -109,20 +109,36 @@ section {
   text-align: left;         /* keeps text left-justified */
 }
 
-#workPicAndText{
+#workPicAndText {
   display: flex;
+  align-items: center;   /* aligns image with text block */
+  gap: 30px;
+  max-width: 900px;
+  margin: 0 auto;
   text-align: left;
-  justify-content: center;
-  align-items: stretch;
   line-height: 1.5;
 }
 
+/* Circular image stays the same */
 #workPic {
   width: 200px;
   height: 200px;
   border-radius: 50%;
   object-fit: cover;
-
   border: 4px solid #7FFFD4;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Text column */
+#workText {
+  display: flex;
+  flex-direction: column;
+}
+
+#workTitle {
+  margin-bottom: 10px;
+}
+
+#workIntro {
+  max-width: 600px;
 }
