@@ -85,19 +85,16 @@ section {
 #aboutMeText {
   display: flex;
   flex-direction: column;
+  padding: 15px;
+  background-color: #7FFFD4;
 }
 
-#aboutMeTitle,
-#aboutMeIntro {
-  padding: 15px;
-  background-color: #7FFFD4; /* Adds a border around the content */
-}
 
 #quoteOne{
   font-size: 52px;
   font-family: 'Candy Script', cursive;
   color: white;
-  background-color:#EFBF04; /* Adds a border around the content */
+  background-color:#EFBF04;
     padding: 15px;         /* Adds space between the text and the border */
     width: 300px;          /* Sets a specific width for the box */
     height: 300px;
