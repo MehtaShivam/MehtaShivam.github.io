@@ -85,9 +85,13 @@ section {
 #aboutMeTitle,
 #aboutMeIntro {
   display: 1;
-
+  border: 2px solid #7FFFD4; /* Adds a border around the content */
 }
 
 #quoteOne{
   display: 2;
+  border: 2px solid #EFBF04; /* Adds a border around the content */
+    padding: 15px;         /* Adds space between the text and the border */
+    margin: 20px;          /* Adds space outside the border, separating it from other elements */
+    width: 300px;          /* Sets a specific width for the box */
 }
