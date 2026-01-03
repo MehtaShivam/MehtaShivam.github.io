@@ -58,8 +58,8 @@ h1 {
 }
 
 #bio{
-  
-  text-align: center;
+  text-align: left;
+  justify-content: center;
 }
 
 em {
