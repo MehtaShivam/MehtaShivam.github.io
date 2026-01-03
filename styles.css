@@ -76,11 +76,13 @@ section {
 }
 
 #aboutMe{
+  display: flex;
   text-align: left;
   justify-content: center;
   align-items: center;
 }
 
 #aboutMeTitle{
-  text-align: left;
+  display: 1;
+  text-align: center;
 }
