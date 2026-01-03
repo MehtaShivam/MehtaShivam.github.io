@@ -109,6 +109,14 @@ section {
   text-align: left;         /* keeps text left-justified */
 }
 
+#workPicAndText{
+  display: flex;
+  text-align: left;
+  justify-content: center;
+  align-items: stretch;
+  line-height: 1.5;
+}
+
 #workPic {
   width: 200px;
   height: 200px;
