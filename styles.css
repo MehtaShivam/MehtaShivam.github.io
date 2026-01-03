@@ -79,7 +79,7 @@ section {
   display: flex;
   text-align: left;
   justify-content: center;
-  align-items: center;
+  align-items: stretch;
 }
 
 #aboutMeText {
@@ -97,7 +97,6 @@ section {
   background-color:#EFBF04;
     padding: 15px;         /* Adds space between the text and the border */
     width: 300px;          /* Sets a specific width for the box */
-    height: 300px;
 
     display: flex;
   align-items: center;      /* vertical centering */
