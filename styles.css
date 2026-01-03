@@ -83,16 +83,12 @@ section {
   text-align: center;
 }
 
-#aboutMeTitle{
+#aboutMeTitle,
+#aboutMeIntro {
   display: 1;
 
 }
 
-#aboutMeIntro{
-  display: 2;
-
-}
-
 #quoteOne{
-  display: 3;
+  display: 2;
 }
