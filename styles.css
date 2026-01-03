@@ -90,9 +90,10 @@ section {
 }
 
 #quoteOne{
-
+  font-size: 30px;
+  font-family: 'Candy Script', cursive;
   border: 2px solid #EFBF04; /* Adds a border around the content */
     padding: 15px;         /* Adds space between the text and the border */
-    margin: 20px;          /* Adds space outside the border, separating it from other elements */
     width: 300px;          /* Sets a specific width for the box */
+    height: 300px;
 }
