@@ -89,7 +89,7 @@ section {
 
 #aboutMeTitle,
 #aboutMeIntro {
-  display: flex;
+  padding: 15px;
   background-color: #7FFFD4; /* Adds a border around the content */
 }
 
