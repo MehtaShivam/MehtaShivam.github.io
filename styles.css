@@ -2,6 +2,11 @@ html {
   scroll-behavior: smooth;
 }
 
+h1 {
+  text-align: center;
+  border: 5px solid green;
+}
+
 .navbar {
   position: sticky;
   top: 0;
@@ -52,22 +57,19 @@ html {
   display: flex;
 }
 
-h1 {
-  text-align: center;
-  border: 5px solid green;
-}
-
 #bio{
   display: flex;
    align-items: center;      /* vertical centering */
    justify-content: center;  /* horizontal centering */
    text-align: left;
   padding: 15px;
+  line-height: 1.5;
 }
 
 em {
   font-size: 30px;
 }
+
 #bioTitle {
   display: block;
   text-align: center;
@@ -89,6 +91,7 @@ section {
   flex-direction: column;
   padding: 15px;
   background-color: #DFF7F9;
+  line-height: 1.5;
 }
 
 
@@ -104,4 +107,14 @@ section {
   align-items: center;      /* vertical centering */
   justify-content: center;  /* horizontal centering */
   text-align: left;         /* keeps text left-justified */
+}
+
+#workPic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+
+  border: 4px solid #7FFFD4;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
