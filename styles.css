@@ -154,3 +154,10 @@ th, td {
 th {
   background-color: #f2f2f2; /* Light gray background for headers */
 }
+
+#collegeCover{
+
+}
+#college{
+  position: absolute;
+}
