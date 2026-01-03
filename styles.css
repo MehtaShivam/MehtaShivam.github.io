@@ -58,9 +58,10 @@ h1 {
 }
 
 #bio{
-  text-align: left;
-  justify-content: center;
-  align-items: center;
+  display: flex;
+   align-items: center;      /* vertical centering */
+   justify-content: center;  /* horizontal centering */
+   text-align: left;
   padding: 15px;
 }
 
