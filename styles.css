@@ -60,6 +60,7 @@ h1 {
 #bio{
   text-align: left;
   justify-content: center;
+  align-items: center;
 }
 
 em {
@@ -74,6 +75,12 @@ section {
   scroll-margin-top: 70px; /* adjust if navbar height changes */
 }
 
-h3{
-  text-align: center;
+#aboutMe{
+  text-align: left;
+  justify-content: center;
+  align-items: center;
+}
+
+#aboutMeTitle{
+  text-align: left;
 }
