@@ -155,9 +155,13 @@ th {
   background-color: #f2f2f2; /* Light gray background for headers */
 }
 
+#collegeCoverAndTitle {
+  display: flex;
+  align-items: center;
+}
 #collegeCover{
   display: flex;
-  align-content: center;
+  align-items: center;
   width: 50%;
   height:50%;
 }
