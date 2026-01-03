@@ -157,10 +157,14 @@ th {
 
 #collegeImageContainer {
   display: flex;
-  align-items: center;
+  align-items: center;       /* Vertical centering */
+  justify-content: center;   /* Horizontal centering */
+  padding: 10px;             /* Optional spacing */
 }
-#collegeCover{
-  display: flex;
-  width: 20%;
-  height:20%;
+
+#collegeCover {
+  width: 20%;               /* 20% of parent container */
+  height: auto;             /* Maintain aspect ratio */
+  border: 8px solid orange;       /* Optional: rounded corners */
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: subtle shadow */
 }
