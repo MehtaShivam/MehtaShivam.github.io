@@ -113,7 +113,6 @@ section {
   display: flex;
   align-items: center;   /* aligns image with text block */
   gap: 30px;
-  max-width: 900px;
   margin: 0 auto;
   text-align: left;
   line-height: 1.5;
@@ -137,8 +136,4 @@ section {
 
 #workTitle {
   margin-bottom: 10px;
-}
-
-#workIntro {
-  max-width: 600px;
 }
