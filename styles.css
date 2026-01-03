@@ -156,7 +156,10 @@ th {
 }
 
 #collegeCover{
-
+  display: flex;
+  align-content: center;
+  width: 50%;
+  height:50%;
 }
 #college{
   position: absolute;
