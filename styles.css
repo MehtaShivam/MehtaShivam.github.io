@@ -155,6 +155,12 @@ th {
   background-color: #f2f2f2; /* Light gray background for headers */
 }
 
+#college{
+  text-decoration: underline;
+  text-decoration-color: blue;
+  text-decoration-style: double;
+}
+
 #collegeImageContainer {
   display: flex;
   align-items: center;       /* Vertical centering */
