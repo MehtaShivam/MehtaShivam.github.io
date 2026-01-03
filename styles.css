@@ -32,6 +32,7 @@ html {
 .nav-links a:hover {
   text-decoration: underline;
 }
+
 .imageContainer{
   display: inline-flex;
   overflow: hidden;
