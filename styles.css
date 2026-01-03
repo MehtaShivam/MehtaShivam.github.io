@@ -173,5 +173,5 @@ th {
   width: 20%;               /* 20% of parent container */
   height: auto;             /* Maintain aspect ratio */
   border: 8px solid orange;       /* Optional: rounded corners */
-  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: subtle shadow */
+  box-shadow: 0 4px 8px blue; /* Optional: subtle shadow */
 }
