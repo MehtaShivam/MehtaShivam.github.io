@@ -162,7 +162,7 @@ th {
   text-decoration-style: double;
 }
 
-#collegeImageContainer {
+#collegeImgContainer {
   display: flex;
   align-items: center;       /* Vertical centering */
   justify-content: center;   /* Horizontal centering */
